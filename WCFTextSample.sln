@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29930.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WCFTextService", "WCFTextService\", "{2F07BD96-2CFF-4096-849B-EEC55A649906}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1263"
+		Debug.AspNetCompiler.PhysicalPath = "WCFTextService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1263\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1263"
+		Release.AspNetCompiler.PhysicalPath = "WCFTextService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1263\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1263"
+		SlnRelativePath = "WCFTextService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFTextClient", "WCFTextClient\WCFTextClient.csproj", "{EEFD3655-4D37-4844-AD70-DD1FB0B2F9FB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2F07BD96-2CFF-4096-849B-EEC55A649906} = {2F07BD96-2CFF-4096-849B-EEC55A649906}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFTextCoreClient", "WCFTextCoreClient\WCFTextCoreClient.csproj", "{76409999-709B-417D-8FEC-B60049E6DE10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F07BD96-2CFF-4096-849B-EEC55A649906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F07BD96-2CFF-4096-849B-EEC55A649906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F07BD96-2CFF-4096-849B-EEC55A649906}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F07BD96-2CFF-4096-849B-EEC55A649906}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EEFD3655-4D37-4844-AD70-DD1FB0B2F9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEFD3655-4D37-4844-AD70-DD1FB0B2F9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEFD3655-4D37-4844-AD70-DD1FB0B2F9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEFD3655-4D37-4844-AD70-DD1FB0B2F9FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76409999-709B-417D-8FEC-B60049E6DE10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76409999-709B-417D-8FEC-B60049E6DE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76409999-709B-417D-8FEC-B60049E6DE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76409999-709B-417D-8FEC-B60049E6DE10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {329FF4BB-0D03-45FF-8399-3E85FE378632}
+	EndGlobalSection
+EndGlobal
